@@ -1,10 +1,10 @@
 function getComputerChoice() {
     let computerChoice = Math.floor(Math.random() * 3);
     if (computerChoice === 0) {
-        return "Rock".toLowerCase();
+        return "rock";
     } else if (computerChoice === 1) {
-        return "Paper".toLowerCase();
-    } return "Scissors".toLowerCase();
+        return "paper";
+    } return "scissors";
 }
 
 function getHumanChoice() {
@@ -18,3 +18,4 @@ function getHumanChoice() {
 
 let humanScore = 0;
 let computerScore = 0;
+
