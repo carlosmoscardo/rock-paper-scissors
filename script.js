@@ -8,7 +8,7 @@ function getComputerChoice() {
 }
 
 function getHumanChoice() {
-    let humanChoice = prompt("Rock, Paper, or Scissors?").toLowerCase();
+    let humanChoice = prompt("Rock, Paper, or Scissors?").toLowerCase().trim();
     if (humanChoice === "rock") {
         return "rock";
     } else if (humanChoice === "paper") {
@@ -18,4 +18,3 @@ function getHumanChoice() {
 
 let humanScore = 0;
 let computerScore = 0;
-
