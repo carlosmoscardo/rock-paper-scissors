@@ -13,8 +13,14 @@ function getHumanChoice() {
         return "rock";
     } else if (humanChoice === "paper") {
         return "paper";
-    } return "scissors";
+    } else if (humanChoice === "scissors") {
+        return "scissors";
+    } else {
+        alert("Invalid choice, please enter Rock, Paper, or Scissors");
+        return getHumanChoice();
+    }
 }
 
 let humanScore = 0;
 let computerScore = 0;
+
